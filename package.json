@@ -1,0 +1,30 @@
+{
+  "name": "gd-components",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/gd-components.umd.js",
+  "module": "./dist/gd-components.es.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/gd-components.es.js",
+      "require": "./dist/gd-components.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "vite": "^3.0.7"
+  }
+}
