@@ -1,21 +1,13 @@
 <template>
-  <button @click="onClick" class="gd-button">
-    Click Me!
+  <!-- Added tailwind css classes to test -->
+  <button @click="onClick" class="px-4 py-2 rounded-md bg-indigo-500 dark:bg-yellow-500 text-white dark:text-black">
+    <slot>
+      Click Me!
+    </slot>
   </button>
 </template>
-<style>
-  .gd-button {
-    display: inline-block;
-    font-weight: 700;
-    padding: 0.5rem 1rem;
-    border-radius: 3px;
-    border: none;
-    background-color: #c00;
-    color: #fff;
-    cursor: pointer;
-  }
-</style>
 <script>
+  import '../../index.styles.css'
   export default {
     name: 'GDButton',
     methods: {

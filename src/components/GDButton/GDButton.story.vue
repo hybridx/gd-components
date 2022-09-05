@@ -30,7 +30,7 @@ const title = ref('Click Me');
     name="Disabled"
     description="The disabled GDButton."
   >
-    <GDButton>{{ title }}</GDButton>
+    <GDButton>This is supposed to be disabled</GDButton>
   </Variant>
 
   <ControlsAddon>

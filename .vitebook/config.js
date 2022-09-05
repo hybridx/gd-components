@@ -17,8 +17,8 @@ export default defineConfig({
     vue({ include: /.(md)/ }),
   ],
   site: {
-    title: 'Fedora Project Component Library',
-    description: 'This is a component library for the Fedora Project.',
+    title: 'Gamedoora Component Library',
+    description: 'This is a component library for Gamedoora UI.',
     /** @type {(import('@vitebook/theme-default/node').DefaultThemeConfig} */
     theme: {},
   },
